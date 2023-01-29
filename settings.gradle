@@ -1,0 +1,6 @@
+rootProject.name = "Wire Proto Sample"
+include ':app'
+include ':proto'
+include ':stub-android-kotlin'
+include ':kotlin-android-sample'
+include ':stub-kotlin'

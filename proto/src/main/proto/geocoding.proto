@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "com.qoollo.sample.proto";
+
+message GeoCodePoint {
+    double longitude = 1;
+    double latitude = 2;
+    string address = 3;
+}
+
+message BoundingBox {
+    double bounding_top_left_latitude = 1;
+    double bounding_top_left_longitude = 2;
+    double bounding_bottom_right_latitude = 3;
+    double bounding_bottom_right_longitude = 4;
+}
