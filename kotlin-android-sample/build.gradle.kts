@@ -19,6 +19,10 @@ android {
 }
 
 wire {
+  sourcePath {
+    srcJar = "$rootDir/proto/build/libs/proto.jar"
+  }
+
   kotlin {
     android = true
     javaInterop = true
