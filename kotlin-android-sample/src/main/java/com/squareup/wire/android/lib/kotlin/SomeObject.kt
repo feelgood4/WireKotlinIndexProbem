@@ -17,7 +17,7 @@ package com.squareup.wire.android.lib.kotlin
 
 class SomeObject {
   init {
-    SomeText()
-    println(SomeText("Hi"))
+//    SomeText()
+//    println(SomeText("Hi"))
   }
 }

@@ -10,13 +10,7 @@ java {
 }
 
 wire {
-    sourcePath {
-        srcJar = "$rootDir/proto/build/libs/proto.jar"
-    }
-
-    kotlin {
-
-    }
+    kotlin {}
 }
 
 dependencies {
